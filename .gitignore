@@ -1,0 +1,54 @@
+# Virtual environment
+myenv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Dependency directories
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# logs
+*.log
+
+# Python egg cache
+*.egg
+
+# pytest cache
+.cache/
+
+# pipenv
+Pipfile.lock
+
+# tox
+.tox/
+
+# coverage reports
+.coverage
+.coverage.*
+
+# mpy-compile
+.mpy-compile
