@@ -8,8 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="main-board"></div>
-        <div class="textures" id="textures"></div>
+        <div class="main-board">
+            <img id="room-image" alt="Room" class="room-image">
+            <button id="room-upload-btn">Upload Room Image</button>
+            <input type="file" id="room-upload" accept="image/*" style="display: none;">
+        </div>
+        <div class="textures" id="textures">
+            <div class="texture upload-texture">+</div>
+        </div>
+        <input type="file" id="texture-upload" accept="image/*" style="display: none;">
     </div>
     <script src="script.js"></script>
 </body>

@@ -12,9 +12,31 @@ body {
 }
 .main-board {
   flex: 3;
-  background: url('./rooms/lotus-design-n-print-8qNuR1lIv_k-unsplash.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 10px;
+}
+.room-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+#room-upload-btn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#room-upload-btn:hover {
+  background-color: #0056b3;
 }
 .textures {
   flex: 1;
@@ -38,4 +60,17 @@ body {
 }
 .texture:hover {
   transform: scale(1.05);
+}
+.upload-texture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: gray;
+  background-color: #ddd;
+  cursor: pointer;
+}
+.upload-texture:hover {
+  background-color: #ccc;
 }
